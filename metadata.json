@@ -1,0 +1,20 @@
+{
+  "name": "copperfrog-chroot",
+  "author": "Copper Frog LLC.",
+  "description": "At the moment only Ubuntu-Lucid as chroot environment is supported.\n\nThis module will create a folder with a fully functional Ubuntu-Lucid(10.04) environment.\nIt will configure the openssh-server to chroot users belonging to a specific group (sftp).\nThe configuration allows for multiple groups and users to be made available in the chroot environment\nas well as bind-mounting specific directories inside the chroot environment.\n\nFor more information please see the inline comments.",
+  "license": "GPL V2",
+  "project_page": "https://github.com/bernd-copperfroghosting/copperfrog-chroot",
+  "source": "",
+  "summary": "Puppet module to configure a chroot environment for SSH and SFTP users",
+  "version": "0.9",
+  "checksums": {
+    "Modulefile": "5a746ec632432372262f488d380c95b4",
+    "README.md": "a0f9910983c600eb15972f5eab881bd8",
+    "files/configure-lucid.sh": "2b18f0ebb6ee90fca6be14ecb6c579ba",
+    "files/create-chroot-group.sh": "89202d6f31c7f06456a9df1aec7cd4ff",
+    "files/create-chroot-user.sh": "fe96baf8546355fedb47425f3579209e",
+    "manifests/example.pp": "553e9a50baa5cc7d4c31ccbc54dae3b4",
+    "manifests/init.pp": "b67b8f0b57442faa8ff2485d213aab11"
+  },
+  "dependencies": []
+}
